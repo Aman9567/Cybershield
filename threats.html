@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Threat Monitoring</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   
+
+    <nav>
+
+        <h1>CyberShield</h1>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="dashboard.html">Dashboard</a></li>
+
+            <li><a href="threats.html">Threats</a></li>
+
+            <li><a href="assistant.html">AI Assistant</a></li>
+
+            <li><a href="cloud.html">Cloud</a></li>
+
+        </ul>
+
+    </nav>
+
+   
+
+    <section class="dashboard-title">
+
+        <h2>Threat Monitoring System</h2>
+
+        <p>
+            Monitor suspicious activities and cyber attacks.
+        </p>
+
+    </section>
+
+
+    <section class="table-section">
+
+        <h2>Live Threat Detection</h2>
+        <div class="search-box">
+
+            <input type="text" id="searchInput" placeholder="Search Threat..." onkeyup="searchThreat()">
+
+        </div>
+        <table id="threatTable">
+
+            <tr>
+                <th>IP Address</th>
+                <th>Threat Type</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>192.168.1.10</td>
+                <td>Malware</td>
+                <td class="blocked">Blocked</td>
+            </tr>
+
+            <tr>
+                <td>203.45.67.11</td>
+                <td>Phishing</td>
+                <td class="blocked">Blocked</td>
+            </tr>
+
+            <tr>
+                <td>145.23.88.90</td>
+                <td>DDoS Attack</td>
+                <td class="active">Monitoring</td>
+            </tr>
+
+            <tr>
+                <td>88.23.45.11</td>
+                <td>SQL Injection</td>
+                <td class="blocked">Blocked</td>
+            </tr>
+
+            <tr>
+                <td>76.45.23.98</td>
+                <td>Brute Force</td>
+                <td class="active">Monitoring</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+
+
+    <section class="cards">
+
+        <div class="card">
+            <h3>Malware Alerts</h3>
+            <h1>245</h1>
+        </div>
+
+        <div class="card">
+            <h3>Blocked IPs</h3>
+            <h1>820</h1>
+        </div>
+
+        <div class="card">
+            <h3>DDoS Attempts</h3>
+            <h1>45</h1>
+        </div>
+
+    </section>
+
+   
+
+    <footer>
+
+        <p>
+            CyberShield Threat Monitoring System
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

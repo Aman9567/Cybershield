@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CyberShield Dashboard</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+
+  <div class="background-animation"></div>
+
+  <nav>
+
+    <h1>CyberShield</h1>
+
+    <ul>
+
+      <li><a href="index.html">Home</a></li>
+
+      <li><a href="dashboard.html">Dashboard</a></li>
+
+      <li><a href="threats.html">Threats</a></li>
+
+      <li><a href="assistant.html">AI Assistant</a></li>
+
+      <li><a href="cloud.html">Cloud</a></li>
+
+    </ul>
+
+  </nav>
+  <div class="clock-container">
+
+  <h3 id="clock"></h3>
+
+</div>
+
+  <section class="hero">
+
+    <h4 class="badge">
+      IBM Watson Inspired Project
+    </h4>
+
+    <h2>
+      Cloud-Based Cyber Security Monitoring Dashboard
+    </h2>
+
+    <p>
+      Monitor cyber threats and protect cloud infrastructure
+      using intelligent security analytics.
+    </p>
+
+    <h3 class="scan-text">
+      Scanning Cloud Threats...
+    </h3>
+
+    <button>
+      Explore Dashboard
+    </button>
+
+  </section>
+
+
+  <section class="cards">
+
+    <div class="card">
+      <h3>Blocked Threats</h3>
+      <h1 id="threats">0</h1>
+    </div>
+
+    <div class="card">
+      <h3>Cloud Servers</h3>
+      <h1 id="servers">0</h1>
+    </div>
+
+    <div class="card">
+      <h3>Security Score</h3>
+      <h1>98%</h1>
+    </div>
+
+    <div class="card">
+      <h3>Active Users</h3>
+      <h1 id="users">0</h1>
+    </div>
+
+  </section>
+
+
+  <section class="cloud-services">
+
+    <h2>Cloud Security Services</h2>
+
+    <div class="service-container">
+
+      <div class="service-card">
+
+        <h3>Cloud Monitoring</h3>
+
+        <p>
+          Real-time monitoring of cyber threats in cloud systems.
+        </p>
+
+      </div>
+
+      <div class="service-card">
+
+        <h3>Threat Detection</h3>
+
+        <p>
+          Detect suspicious activities using intelligent analytics.
+        </p>
+
+      </div>
+
+      <div class="service-card">
+
+        <h3>Data Protection</h3>
+
+        <p>
+          Secure cloud infrastructure against cyber attacks.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="chart-section">
+
+    <h2>Threat Analytics</h2>
+
+    <div class="chart-box">
+
+      <canvas id="myChart"></canvas>
+
+    </div>
+
+  </section>
+
+
+  <section class="chatbot">
+
+    <h2>AI Security Assistant</h2>
+
+    <div class="chat-box">
+
+      <p class="bot">
+        🤖 Hello! How can I help you with cloud security?
+      </p>
+
+      <button onclick="showMessage()">
+        Ask Security Tip
+      </button>
+
+      <p id="reply"></p>
+
+    </div>
+
+  </section>
+
+
+  <section class="tips">
+
+    <h2>Cloud Security Tips</h2>
+
+    <div class="tips-container">
+
+      <div class="tip-card">
+
+        <h3>Enable 2FA</h3>
+
+        <p>
+          Use two-factor authentication for extra security.
+        </p>
+
+      </div>
+
+      <div class="tip-card">
+
+        <h3>Strong Passwords</h3>
+
+        <p>
+          Create strong passwords for cloud accounts.
+        </p>
+
+      </div>
+
+      <div class="tip-card">
+
+        <h3>Regular Monitoring</h3>
+
+        <p>
+          Track suspicious cloud activities regularly.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="cloud-platform">
+
+    <h2>IBM Cloud Inspired Integration</h2>
+
+    <p>
+      This dashboard is designed for monitoring cloud-based
+      cyber security analytics and digital threat activities.
+    </p>
+
+  </section>
+
+
+  <footer>
+
+    <p>
+      CyberShield Dashboard | IBM Watson Inspired Project
+    </p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

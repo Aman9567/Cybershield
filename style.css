@@ -1,0 +1,407 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body{
+  background: #0f172a;
+  color: white;
+}
+
+
+.background-animation{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    #0f172a,
+    #111827,
+    #1e293b
+  );
+
+  z-index: -1;
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #111827;
+}
+
+nav h1{
+  color: #22c55e;
+  font-size: 32px;
+}
+
+nav ul{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+nav ul li a:hover{
+  color: #22c55e;
+}
+
+
+.hero{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.badge{
+  background: #22c55e;
+  color: black;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.hero h2{
+  margin-top: 30px;
+  font-size: 55px;
+  color: #22c55e;
+}
+
+.hero p{
+  margin-top: 20px;
+  font-size: 20px;
+  color: lightgray;
+}
+
+.scan-text{
+  margin-top: 20px;
+  color: #22c55e;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink{
+  50%{
+    opacity: 0;
+  }
+}
+
+.hero button{
+  margin-top: 30px;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 10px;
+  background: #22c55e;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.dashboard-title{
+  text-align: center;
+  margin-top: 80px;
+}
+
+.dashboard-title h2{
+  font-size: 50px;
+  color: #22c55e;
+}
+
+.dashboard-title p{
+  margin-top: 20px;
+  color: lightgray;
+  font-size: 20px;
+}
+
+
+.cards{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.card{
+  background: #1e293b;
+  width: 250px;
+  padding: 40px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px #22c55e;
+  transition: 0.4s;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
+.card h3{
+  margin-bottom: 20px;
+  color: lightgray;
+}
+
+.card h1{
+  font-size: 45px;
+  color: #22c55e;
+}
+
+.cloud-services{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.cloud-services h2{
+  font-size: 40px;
+  color: #22c55e;
+}
+
+.service-container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.service-card{
+  background: #1e293b;
+  width: 300px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px #22c55e;
+}
+
+.service-card h3{
+  color: #22c55e;
+  margin-bottom: 15px;
+}
+
+
+.chart-section{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.chart-section h2{
+  font-size: 40px;
+  color: #22c55e;
+}
+
+.chart-box{
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+
+.table-section{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.table-section h2{
+  font-size: 40px;
+  color: #22c55e;
+  margin-bottom: 40px;
+}
+
+table{
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table th,
+table td{
+  border: 1px solid #22c55e;
+  padding: 15px;
+}
+
+table th{
+  background: #1e293b;
+}
+
+.blocked{
+  color: #22c55e;
+}
+
+.active{
+  color: orange;
+}
+
+
+.chatbot{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.chatbot h2{
+  color: #22c55e;
+  font-size: 40px;
+}
+
+.chat-box{
+  width: 60%;
+  margin: auto;
+  margin-top: 40px;
+  background: #1e293b;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.bot{
+  color: lightgreen;
+  font-size: 20px;
+}
+
+.chat-box button{
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  background: #22c55e;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#reply{
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+
+.tips{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.tips h2{
+  font-size: 40px;
+  color: #22c55e;
+}
+
+.tips-container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.tip-card{
+  background: #1e293b;
+  width: 300px;
+  padding: 30px;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.tip-card:hover{
+  transform: scale(1.05);
+}
+
+.tip-card h3{
+  color: #22c55e;
+  margin-bottom: 15px;
+}
+
+
+.cloud-platform{
+  margin-top: 100px;
+  text-align: center;
+  padding: 50px;
+}
+
+.cloud-platform h2{
+  font-size: 40px;
+  color: #22c55e;
+}
+
+.cloud-platform p{
+  margin-top: 20px;
+  font-size: 20px;
+  color: lightgray;
+}
+
+
+
+.status-section{
+  margin-top: 100px;
+  text-align: center;
+}
+
+
+footer{
+  margin-top: 100px;
+  background: #111827;
+  text-align: center;
+  padding: 20px;
+}
+
+
+@media(max-width:768px){
+
+  nav{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero h2{
+    font-size: 35px;
+  }
+
+  .dashboard-title h2{
+    font-size: 35px;
+  }
+  .clock-container{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#clock{
+  color: #22c55e;
+  font-size: 25px;
+}
+
+  .chart-box{
+    width: 95%;
+  }
+  .search-box{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.search-box input{
+  width: 300px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+  .chat-box{
+    width: 90%;
+  }
+
+  table{
+    width: 95%;
+  }
+
+}
